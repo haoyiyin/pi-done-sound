@@ -1,0 +1,40 @@
+{
+	"name": "@haoyiyin/pi-done-sound",
+	"version": "1.0.3",
+	"description": "Pi coding agent extension: play a three-note chime when the agent finishes answering.",
+	"type": "module",
+	"license": "MIT",
+	"author": "haoyiyin",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"pi",
+		"notification",
+		"sound",
+		"chime"
+	],
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"pi": {
+		"extensions": [
+			"./src/index.ts"
+		]
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/haoyiyin/pi-done-sound.git"
+	},
+	"homepage": "https://github.com/haoyiyin/pi-done-sound#readme",
+	"bugs": {
+		"url": "https://github.com/haoyiyin/pi-done-sound/issues"
+	}
+}
